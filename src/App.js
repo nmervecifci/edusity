@@ -6,6 +6,7 @@ import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import Programs from "./Components/Programs/Programs";
 import Testimonials from "./Components/Testimonials/Testimonials";
+
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Programs />
       <About />
+
       <Campus />
       <Testimonials />
       <Contact />
