@@ -1,0 +1,35 @@
+.programs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.program-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.program-text h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.programs-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.programs-gallery {
+  flex: 1;
+  max-width: 300px;
+}
+
+.programs-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

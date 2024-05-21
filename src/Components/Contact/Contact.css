@@ -1,0 +1,111 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.contact-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact-text p {
+  font-size: 18px;
+  color: #555;
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-title h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-title p {
+  font-size: 16px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-title img {
+  margin-top: 20px;
+}
+
+.contect-left,
+.contect-right {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.contect-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contect-left li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contect-left li img {
+  margin-right: 10px;
+}
+
+.contect-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contect-right form label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contect-right form input,
+.contect-right form textarea {
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contect-right form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contect-right form button img {
+  margin-left: 10px;
+}
+
+.contect-right form button:hover {
+  background-color: #45a049;
+}

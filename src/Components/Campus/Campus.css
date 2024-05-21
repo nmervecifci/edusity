@@ -1,0 +1,38 @@
+.campus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.campus-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.campus-images img {
+  width: 53%;
+  cursor: pointer;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  color: gray;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn img {
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
